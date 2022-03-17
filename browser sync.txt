@@ -1,0 +1,2 @@
+browser-sync start --server --directory --files "*"
+browser-sync start --server --directory --files "**/*" (para que compile todos los archivos dentro de carpetas)
