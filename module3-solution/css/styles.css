@@ -1,48 +1,67 @@
-ody {
-    font-size: 16px;
-    color: #e372fa;
-    background-color: #61122f;
-    font-family: 'Oxygen', sans-serif;
-  }
-  
-  /** HEADER **/
-  #header-nav {
-    background-color: #f6b319;
-    border-radius: 0;
-    border: 0;
-  }
-  /*
-  #logo-img {
-    background: url('../images/restaurant-logo_large.png') no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0;
-  }
-  */
-  .navbar-brand {
-    padding-top: 25px;
-  }
-  
-  .navbar-brand h1 { /* Restaurant name */
-    font-family: 'Lora', serif;
-    color: #fc0808;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-  }
-  .navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
-  .navbar-brand p { /* Kosher cert */
-    color: #000;
-    text-transform: uppercase;
-    font-size: .7em;
-    margin-top: 15px;
-  }
-  .navbar-brand p span { /* Star-K */
-    vertical-align: middle;
-  }
+body {
+  font-size: 16px;
+  color: rgba(34, 33, 33, 0.884);
+  background-color: #80bad1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#header-nav {
+  background-color: #6f44a0;
+  border-radius: 0;
+  border: 0;
+  min-height: 70px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #80bad1;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #80bad1;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background: rgb(236, 236, 209);
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #80bad1;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#page-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-background {
+  height: 3000px;
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(236, 236, 209);
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: bold;
+}
